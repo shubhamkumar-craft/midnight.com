@@ -26,7 +26,7 @@ const Navbar = () => {
         {/* Login & Theme Toggle (Desktop) */}
         <div className="hidden lg:flex space-x-10 font-semibold text-md">
           <button>
-            <img className="w-[40px] px-1 py-1" src="src/assets/light-mode.png" alt="Light Mode" />
+            <img className="w-[40px] px-1 py-1" src="assets/light-mode.png" alt="Light Mode" />
           </button>
           <a className="border-[2px] border-neutral-600 hover:border-[#00754a] px-4 py-1 rounded-xl" href="#">Login</a>
           <a className="border-[2px] border-neutral-600 hover:border-[#00754a] px-3 py-1 rounded-xl" href="#">Sign up</a>

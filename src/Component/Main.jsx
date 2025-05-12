@@ -3,7 +3,7 @@ import React from 'react'
 const Main = () => {
   return (
     <div className=' ' >
-      <div className='h-[400px] px-4 flex justify-start items-end bg-cover bg-center bg-no-repeat ' style={{ backgroundImage: "url(src/assets/robert-shunev-OmOvMdiaZZ0-unsplash.jpg)" }}>
+      <div className='h-[400px] px-4 flex justify-start items-end bg-cover bg-center bg-no-repeat ' style={{ backgroundImage: "url(/robert-shunev-OmOvMdiaZZ0-unsplash.jpg)" }}>
        <div className='text-white  pb-5  font-semibold font-sans space-y-2 ' >
         <h1 className=' text-3xl  md:text-5xl font-tektur ' >A Cup of Joy in  Every Sip.</h1> 
         <p className='hidden md:flex  font-md font-sans  ' >Master the perfect brew with Midnight! Learn the art and science of coffee brewing.</p>
@@ -18,31 +18,31 @@ const Main = () => {
       <div className=' px-3 grid grid-cols-2 gap-8 lg:space-y-2  md:flex md:justify-between   ' >
        {/* first  */}
         <div className=' flex items-center px-5  ' > 
-         <a href="#"> <img className='rounded-full w-[150px] hover:motion-safe:animate-bounce  ' src="src/assets/Bestseller.webp" alt="" />
+         <a href="#"> <img className='rounded-full w-[150px] hover:motion-safe:animate-bounce  ' src="/Bestseller.webp" alt="" />
         </a>
         </div>
         {/* second  */}
         <div className=' flex items-center px-5  ' > 
-         <a href="#"> <img className='rounded-full w-[150px] hover:motion-safe:animate-bounce  ' src="src/assets/Drinks.webp" alt="" />
+         <a href="#"> <img className='rounded-full w-[150px] hover:motion-safe:animate-bounce  ' src="/Drinks.webp" alt="" />
         </a>
         </div>
         {/* third  */}
         <div className=' flex items-center px-5  ' > 
-         <a href="#"> <img className='rounded-full w-[150px] hover:motion-safe:animate-bounce duration-500 ' src="src/assets/ReadyToEat.webp" alt="" />
+         <a href="#"> <img className='rounded-full w-[150px] hover:motion-safe:animate-bounce duration-500 ' src="/ReadyToEat.webp" alt="" />
         </a>
         </div>
         {/* fourth  */}
         <div className=' flex items-center px-5  ' > 
-        <a href="#">  <img className='rounded-full w-[150px] hover:motion-safe:animate-bounce ' src="src/assets/cf8f1305-8d1c-4dc5-a2ee-650f41e2f588.jpeg" alt="" />
+        <a href="#">  <img className='rounded-full w-[150px] hover:motion-safe:animate-bounce ' src="/cf8f1305-8d1c-4dc5-a2ee-650f41e2f588.jpeg" alt="" />
        </a> </div>
         {/* fifth  */}
         <div className=' grid items-center text-center px-5   ' > 
-         <a href="#"> <img className='rounded-full w-[150px] hover:motion-safe:animate-bounce  ' src="src/assets/16a1fdb8-0092-440f-abe7-74042de011d8.jpeg" alt="" />
+         <a href="#"> <img className='rounded-full w-[150px] hover:motion-safe:animate-bounce  ' src="/16a1fdb8-0092-440f-abe7-74042de011d8.jpeg" alt="" />
           </a>
         </div>
         {/* six */}
         <div className='md:hidden grid items-center text-center px-5   ' > 
-         <a href="#"> <img className='rounded-full w-[150px] hover:motion-safe:animate-bounce  ' src="src/assets/output.jpg" alt="" />
+         <a href="#"> <img className='rounded-full w-[150px] hover:motion-safe:animate-bounce  ' src="/output.jpg" alt="" />
           </a>
         </div>
       </div>
@@ -55,7 +55,7 @@ const Main = () => {
         {/* img  */}
            <div>
             <a href="#">
-              <img className='w-[250px]  rounded-lg border-[1px] border-[#00754a]  ' src="src/assets/a7f7952b-b5cc-4381-949f-7b890a19c1a8.jpeg" alt="" />
+              <img className='w-[250px]  rounded-lg border-[1px] border-[#00754a]  ' src="/a7f7952b-b5cc-4381-949f-7b890a19c1a8.jpeg" alt="" />
             </a>
            </div>
        {/* price  */}
@@ -68,7 +68,7 @@ const Main = () => {
         {/* img  */}
            <div>
             <a href="#">
-              <img className='w-[250px]  rounded-lg border-[1px] border-[#00754a]  ' src="src/assets/a7f7952b-b5cc-4381-949f-7b890a19c1a8.jpeg" alt="" />
+              <img className='w-[250px]  rounded-lg border-[1px] border-[#00754a]  ' src="/a7f7952b-b5cc-4381-949f-7b890a19c1a8.jpeg" alt="" />
             </a>
            </div>
        {/* price  */}
@@ -81,7 +81,7 @@ const Main = () => {
         {/* img  */}
            <div>
             <a href="#">
-              <img className='w-[250px]  rounded-lg border-[1px] border-[#00754a]  ' src="src/assets/a7f7952b-b5cc-4381-949f-7b890a19c1a8.jpeg" alt="" />
+              <img className='w-[250px]  rounded-lg border-[1px] border-[#00754a]  ' src="/a7f7952b-b5cc-4381-949f-7b890a19c1a8.jpeg" alt="" />
             </a>
            </div>
        {/* price  */}
@@ -94,7 +94,7 @@ const Main = () => {
         {/* img  */}
            <div>
             <a href="#">
-              <img className='w-[250px]  rounded-lg border-[1px] border-[#00754a]  ' src="src/assets/a7f7952b-b5cc-4381-949f-7b890a19c1a8.jpeg" alt="" />
+              <img className='w-[250px]  rounded-lg border-[1px] border-[#00754a]  ' src="/a7f7952b-b5cc-4381-949f-7b890a19c1a8.jpeg" alt="" />
             </a>
            </div>
        {/* price  */}
@@ -108,7 +108,7 @@ const Main = () => {
         {/* img  */}
            <div>
             <a href="#">
-              <img className='w-[250px] rounded-lg border-[1px] border-[#00754a]  ' src="src/assets/44e77574-ddb3-4b97-9dd5-5e5ca3693af9.jpeg" alt="" />
+              <img className='w-[250px] rounded-lg border-[1px] border-[#00754a]  ' src="/44e77574-ddb3-4b97-9dd5-5e5ca3693af9.jpeg" alt="" />
             </a>
            </div>
        {/* price  */}
@@ -121,7 +121,7 @@ const Main = () => {
         {/* img  */}
            <div>
             <a href="#">
-              <img className='w-[250px] rounded-lg border-[1px] border-[#00754a]  ' src="src/assets/fb466918-ec05-41db-abb6-8448a15bacfc.jpeg" alt="" />
+              <img className='w-[250px] rounded-lg border-[1px] border-[#00754a]  ' src="/fb466918-ec05-41db-abb6-8448a15bacfc.jpeg" alt="" />
             </a>
            </div>
        {/* price  */}
@@ -134,7 +134,7 @@ const Main = () => {
         {/* img  */}
            <div>
             <a href="#">
-              <img className='w-[250px] rounded-lg border-[1px] border-[#00754a]  ' src="src/assets/127b4f81-98f0-4f00-8e9c-f1c10215621a.jpeg" alt="" />
+              <img className='w-[250px] rounded-lg border-[1px] border-[#00754a]  ' src="/127b4f81-98f0-4f00-8e9c-f1c10215621a.jpeg" alt="" />
             </a>
            </div>
        {/* price  */}
@@ -153,11 +153,11 @@ const Main = () => {
       {/* Chatbot */}
 <div className="bg-black rounded-full fixed bottom-4 transition-all duration-300 ease-in-out 
                hover:bg-gray-900 hover:scale-105 
- right-6 p-1 w-[60px] md:w-[110px] shadow-lg animate-float ">
+ right-6 p-1 w-[60px] md:w-[60px] shadow-lg animate-float z-50 ">
   <a href="#">
     <img 
-      className="rounded-full w-[80px] md:w-[110px]  object-cover   " 
-      src="/src/assets/7bc982fb-5a74-4236-bb59-835687dc64c4.jpeg" 
+      className="rounded-full w-[80px] md:w-[60px]  object-cover   " 
+      src="/7bc982fb-5a74-4236-bb59-835687dc64c4.jpeg" 
       alt="chatbot" 
     />
   </a>

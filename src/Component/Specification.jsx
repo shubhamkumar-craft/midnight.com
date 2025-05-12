@@ -12,13 +12,13 @@ const Specification = () => {
              </div>
 
      <div className='flex justify-end ' >
-        <img className='h-[400px] rounded-r-xl  ' src="src/assets/a7f7952b-b5cc-4381-949f-7b890a19c1a8.jpeg" alt="" />
+        <img className='h-[400px] rounded-r-xl  ' src="/a7f7952b-b5cc-4381-949f-7b890a19c1a8.jpeg" alt="" />
      </div>
   </div>  
   {/* second  */}
   <div className='grid md:grid-cols-2 bg-[#E4EFE7] transition-all  delay-150 hover:scale-95 ease-in-out   mt-10 rounded-xl border-[2px] hover:shadow-xl  border-neutral-400 ' >
   <div className='flex justify-start ' >
-        <img className='h-[400px]  ' src="src/assets/fb466918-ec05-41db-abb6-8448a15bacfc.jpeg" alt="" />
+        <img className='h-[400px]  ' src="/fb466918-ec05-41db-abb6-8448a15bacfc.jpeg" alt="" />
      </div>
              <div className='px-6 py-5 flex flex-col  text-center justify-center ' >
                 <h1 className='text-2xl md:text-4xl font-bold font-poppins'>Our creamiest, most indulgent shake yet </h1>
@@ -39,7 +39,7 @@ const Specification = () => {
              </div>
 
      <div className='flex justify-end ' >
-        <img className='h-[400px] rounded-r-xl ' src="src/assets/127b4f81-98f0-4f00-8e9c-f1c10215621a.jpeg" alt="" />
+        <img className='h-[400px] rounded-r-xl ' src="/127b4f81-98f0-4f00-8e9c-f1c10215621a.jpeg" alt="" />
      </div>
   </div> 
     

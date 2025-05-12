@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 
+
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
 
@@ -17,7 +18,7 @@ const Navbar = () => {
         {/* Center Links (Desktop) */}
         <div className="hidden md:flex justify-between w-[500px] font-semibold">
           {['Home', 'Coffee', 'Beans', 'Chocolate', 'Mug'].map((item) => (
-            <a key={item} className="hover:text-[#00754a] hover:shadow-lg underline decoration-2" href="#">
+            <a key={item} className="hover:text-[#00754a]  hover:underline decoration-2" href="#">
               {item}
             </a>
           ))}
@@ -26,7 +27,7 @@ const Navbar = () => {
         {/* Login & Theme Toggle (Desktop) */}
         <div className="hidden lg:flex space-x-10 font-semibold text-md">
           <button>
-            <img className="w-[40px] px-1 py-1" src="assets/light-mode.png" alt="Light Mode" />
+            <img className="w-[40px] px-1 py-1" src="/light-mode.png" alt="Light Mode" />
           </button>
           <a className="border-[2px] border-neutral-600 hover:border-[#00754a] px-4 py-1 rounded-xl" href="#">Login</a>
           <a className="border-[2px] border-neutral-600 hover:border-[#00754a] px-3 py-1 rounded-xl" href="#">Sign up</a>
